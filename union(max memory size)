@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<string.h>
+union data {
+    int a;
+    float b;
+    char str[20];
+} d;
+
+int main() {
+    printf("memory size occupied by the data is %d",sizeof(d));
+    return 0;
+}
+
